@@ -1,0 +1,379 @@
+* {
+  margin: 0px;
+  /* border: 1px solid red; */
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #f5f5f5;
+}
+header {
+  background: linear-gradient(90deg, #1d4ed8, #4f46e5);
+  color: white;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: row;
+}
+.header-logo-div {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px;
+}
+.header-date-div {
+  width: 190px;
+  margin-left: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.section1-top {
+  padding: 15px;
+  display: flex;
+}
+.card1 {
+  flex-grow: 1;
+}
+.card2 {
+  flex-grow: 1;
+}
+.card3 {
+  flex-grow: 1;
+}
+.card4 {
+  flex-grow: 1;
+}
+.balance-div {
+  display: flex;
+  margin-top: 5px;
+}
+.section1-card-div {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 250px;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #ffffff;
+  border: #ffffff;
+  border-radius: 4px;
+  margin: 5px 10px;
+}
+.section1-card1-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #00000050;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  background-color: #c1c0c0;
+}
+.card-p {
+  font-weight: bold;
+  padding: 10px;
+  margin-left: -5px;
+}
+.balance-div p {
+  width: 60%;
+  border: 1px solid #00000050;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.card-matter {
+  display: flex;
+}
+.balance-p {
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-matter-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  color: #ef3030;
+  font-weight: bold;
+}
+.icon-container {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10%;
+  border-radius: 50%;
+  background-color: #fff0f0;
+}
+
+.icon-container svg {
+  width: 30px;
+  height: 30px;
+  color: #ef3030;
+  stroke-width: 2;
+}
+.balance {
+  background-color: #f0fff6;
+}
+.balance svg {
+  width: 30px;
+  height: 30px;
+  color: green;
+  stroke-width: 2;
+}
+#s1-p {
+  font-size: 20px;
+}
+.Category-p {
+  color: #585ae7;
+  font-size: 20px;
+}
+.Category {
+  background-color: #f0f7ff;
+}
+.Category svg {
+  width: 30px;
+  height: 30px;
+  color: blue;
+  stroke-width: 2;
+}
+
+.section2-top {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px 20px;
+  border-radius: 5px;
+}
+
+.section2-top-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.s2-inputs-div {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.s2-heading {
+  font-size: 16px;
+  color: #585ae7;
+  padding: 10px;
+}
+.s2-input {
+  padding: 10px;
+  width: 275px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.s2-input label {
+  padding: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.s2-input input {
+  width: 240px;
+  height: 48px;
+  padding: 0 14px;
+  border: 1px solid #dde2ec;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #1e2d55;
+  background-color: white;
+  margin: 5px;
+}
+
+.s2-input-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.s2-input-button button {
+  margin-top: 15px;
+  background-color: #6366f1;
+  border: 1px solid #c1c0c0;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  height: 40px;
+}
+.adding-btn {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+}
+.adding-btn p {
+  padding-left: 5px;
+  margin-left: 10%;
+  font-size: 15px;
+  color: #f0f7ff;
+}
+.adding-btn svg {
+  font-size: 14px;
+  margin-left: 15px;
+  color: #f0f7ff;
+}
+
+#category {
+  width: 240px;
+  height: 48px;
+  padding: 0 14px;
+  border: 1px solid #dde2ec;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #1e2d55;
+  background-color: white;
+}
+
+.section3-categorys {
+  background-color: white;
+  padding: 15px;
+  margin: 10px 20px;
+  border-radius: 5px;
+}
+.category-div {
+  display: flex;
+}
+.category-btn {
+  display: flex;
+  align-items: center;
+}
+
+.category-btn button {
+  margin: 3px 25px;
+  height: 45px;
+  width: 140px;
+  padding: 5px;
+  border: 1px solid #c1c0c0;
+  border-radius: 5px;
+  background-color: transparent;
+  color: black;
+}
+#btn-all {
+  width: 50px;
+}
+
+.category-div-p {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.btn-c {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section4-table {
+  background-color: white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.table-div {
+  width: 100%;
+  border-collapse: collapse;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #c1c0c0;
+}
+.table-heading {
+  background-color: #1d4ed8;
+  width: 100%;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.table-heading th {
+  padding: 15px;
+  text-align: start;
+  margin: 10px;
+}
+
+.table-data {
+  text-align: start;
+  padding: 15px;
+  height: 60px;
+  margin: 10px;
+}
+.data {
+  padding: 15px;
+  font-weight: 500;
+}
+.data p {
+  padding: 10px;
+}
+.table-category {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.food-icon {
+  color: green;
+  background-color: #66f06650;
+  padding: 10px;
+  border-radius: 40%;
+}
+
+.transport-icon {
+  color: blue;
+  background-color: #66aaff50;
+  padding: 10px;
+  border-radius: 40%;
+}
+
+.shopping-icon {
+  color: purple;
+  background-color: #bb88ff50;
+  padding: 10px;
+  border-radius: 40%;
+}
+
+.bills-icon {
+  color: orange;
+  background-color: #ffaa5550;
+  padding: 10px;
+  border-radius: 40%;
+}
+
+.entertainment-icon {
+  color: deeppink;
+  background-color: #ff88bb50;
+  padding: 10px;
+  border-radius: 40%;
+}
+
+.others-icon {
+  color: gray;
+  background-color: #cccccc50;
+  padding: 10px;
+  border-radius: 40%;
+}
