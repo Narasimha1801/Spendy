@@ -31,7 +31,11 @@
           <div class="section1-card1-img">
             <span>₹</span>
           </div>
-          <p>50000/-</p>
+          <input
+            type="number"
+            id="initial-balance-input"
+            placeholder="Enter Your Amount"
+          />
         </div>
       </div>
       <div class="section1-card-div card2">
@@ -40,7 +44,7 @@
         </div>
         <div class="card-matter">
           <div class="card-matter-p amt-p">
-            <p>₹ 12,450.00</p>
+            <p id="amount_spent">₹ 12,450.00</p>
           </div>
 
           <div class="icon-container">
@@ -54,7 +58,7 @@
         </div>
         <div class="card-matter">
           <div class="card-matter-p amt-p Category-p">
-            <p>₹4,250.00</p>
+            <p id="category_total">₹4,250.00</p>
           </div>
 
           <div class="icon-container Category">
@@ -68,7 +72,7 @@
         </div>
         <div class="card-matter">
           <div class="balance-p amt-p">
-            <p>₹ 12,450.00</p>
+            <p id="balance">₹ 12,450.00</p>
           </div>
 
           <div class="icon-container balance">
@@ -146,22 +150,22 @@
           <button id="btn-all">
             <div>All</div>
           </button>
-          <button>
+          <button id="btn-food">
             <div class="btn-c"><i data-lucide="utensils"></i> Food</div>
           </button>
-          <button>
+          <button id="btn-transport">
             <div class="btn-c"><i data-lucide="bus-front"></i>Transport</div>
           </button>
-          <button>
+          <button id="btn-shopping">
             <div class="btn-c"><i data-lucide="shopping-bag"></i>Shopping</div>
           </button>
-          <button>
+          <button id="btn-bills">
             <div class="btn-c"><i data-lucide="receipt"></i>Bills</div>
           </button>
-          <button>
+          <button id="btn-entertainment">
             <div class="btn-c"><i data-lucide="ticket"></i>Entertainment</div>
           </button>
-          <button>
+          <button id="btn-others">
             <div class="btn-c"><i data-lucide="ellipsis"></i>Others</div>
           </button>
         </div>
