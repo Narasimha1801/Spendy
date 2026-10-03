@@ -684,9 +684,9 @@ btn_entertainment.addEventListener("click", function () {
   setActiveButton(btn_entertainment);
 });
 
-// =========================================
+// ==========================================
 // OTHERS FILTER
-// =========================================
+// ==========================================
 
 btn_others.addEventListener("click", function () {
   const others_items = submit_array.filter(
